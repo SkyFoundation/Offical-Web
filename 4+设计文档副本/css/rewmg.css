@@ -1,0 +1,16 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	
+	height: 100%; /* 自动 */
+	width: 100%;  /* 自动 */
+}
+html
+{
+	margin: 0;
+	padding: 0;
+	
+	height: 100%; /* 自动 */
+	width: 100%;  /* 自动 */
+}
