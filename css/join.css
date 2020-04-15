@@ -1,0 +1,37 @@
+#join-description {
+    display: block;
+    position: relative;
+    float: right;
+    line-height: 50px;
+    margin-top: 40px;
+    top: 0 !important;
+}
+
+#join-description p {
+    display: block;
+    color: rgb(245, 245, 245);
+    font-size: 1.3rem;
+    background-color: rgb(150, 150, 150);
+    margin: 60px;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 1rem;
+    grid-area: span;
+}
+
+.card-header {
+    font-size: 1.6rem;
+    font-family: 楷体;
+    color: white;
+}
+
+.work-price {
+    color: white;
+    font-family: 楷体;
+    text-decoration: underline #b40ec4;
+}
+
+.work-description {
+    color: white;
+    font-family: 楷体;
+}
