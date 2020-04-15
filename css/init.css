@@ -19,7 +19,7 @@ html {
 .menu_ui
 {
 	padding: 10px;
-	background-color: #7a7f7f;
+	background-color: #343a40;
 }
 
 .tablink
@@ -29,16 +29,16 @@ html {
 	color: #fff;
 	border: 2px solid #fff0;
 	
-	border-radius: 15px;
+	border-radius: 10px;
 	//border-radius: 20px;
 }
 
 .tablink:hover
 {
 	text-decoration: none;
-	border: 2px solid #6dcf43;
-	background-color: #fff;
-	color: #509c30;
+	border: 2px solid #586068;
+	background-color: #586068;
+	color: #00b0eb;
 }
 
 
