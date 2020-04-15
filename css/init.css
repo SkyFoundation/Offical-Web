@@ -28,7 +28,7 @@ body
 .layout_ui
 {
     width: 1200px;
-	height: 100%;/* 自动 */
+	//height: 100%;/* 自动 */
 
 	margin: 20px auto;
 	//padding: 10px;
@@ -38,8 +38,11 @@ body
 .back_ui
 {
 	//height: 100%;/* 自动 */
+	width: 100%;	/* 自动 */
 	//box-shadow: 0 10px 20px -8px #c5d6d6;
 	background-color: #eafffa;
+	
+	float: left;
 }
 
 
