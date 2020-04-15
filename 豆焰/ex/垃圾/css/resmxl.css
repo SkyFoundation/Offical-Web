@@ -14,43 +14,20 @@ html {
 	width: 100%;/* 自动 */
 }
 
+/*--------------------------------------------------*/
 
-/*网站导航菜单*/
-.menu_ui
-{
-	padding: 10px;
-	background-color: #7a7f7f;
-}
-
-.tablink
-{
-	padding: 5px 15px;
-	text-decoration: none;
-	color: #fff;
-	border: 2px solid #ccc;
-}
-
-.tablink:hover
-{
-	border: 2px solid #6dcf43;
-	background-color: #fff;
-	color: #509c30;
-}
-
-
-
-
-
-/*----适应布局------*/
 body
 {
+	//font-family: Arial, Helvetica, sans-serif;
     background-color: #f1f9f9;
+	
+	
 }
 
 #wxsssss
 {
     width: 1240px;
-    margin: 10px auto;
+    margin: 1px auto;
 }
 
 .button-cover
@@ -60,7 +37,7 @@ body
     background-color: #fff;
     box-shadow: 0 10px 20px -8px #c5d6d6;
 	background-color: #bdddd6;
-	//border-radius: 15px;
+	border-radius: 15px;
 }
 
 
@@ -72,11 +49,7 @@ body
 
 
 
-
-
-
-
-/* -----卡片样式----- */
+/*--------------------------------------------------------*/
 div.img
 {
     border: 5px solid #ccc;
