@@ -7,8 +7,6 @@
   <meta name="keywords" content="团队, Minecraft, 游戏开发">
   <meta name="description" content="我们需要支持，需要热爱游戏的你！">
   <link rel="icon" type="image/x-icon" href="../src/images/SkyFoundation_icon.ico">
-
-  <link rel="stylesheet" type="text/css" href="../css/card-style.css">
   <link rel="stylesheet" type="text/css" href="../css/init.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
@@ -17,48 +15,63 @@
 </head>
 
 <body class="flex-grow-0">
-  <!------Navigation导航栏------>
-  <nav class="nav justify-content">
-    <ul class="nav">
-      <li class="nav-item col-4"><a href="index.html" class="nav-link" id="navigation-home">首页</a></li>
-      <li class="nav-item col-2"><a href="team_work.html" class="nav-link">团队作品</a></li>
-      <li class="nav-item col-2"><a href="team.html" class="nav-link">有关我们</a></li>
-      <li class="nav-item col-2"><a href="join.html" class="nav-link">加入我们</a></li>
-      <li class="nav-item col-2"><a href="cooperation.html" class="nav-link">投资|合作</a></li>
-    </ul>
-  </nav>
-  <div class="card-description justify-content" id="mcmod">
-    <div class="container" style="	transform:  translateY(140px) ;">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card bg-dark text-light mx-5 text-center"
-            style="	height: 360px;	border-top-left-radius: 1rem;	border-top-right-radius: 1rem;	border-bottom-left-radius: 1rem;	border-bottom-right-radius: 1rem;">
-            <div class="card-header">CheeseCraft</div>
-            <div class="card-text">许多的芝士(内容介绍)</div>
-            <div class="btn btn-primary align-items-center"
-              style="	width: 124px;	transform:  translateX(160px)  translateY(270px) ;"><a
-                href="https://github.com/SkyFoundation">GitHub</a></div>
-            <!-- 这里我直接链接了SkyFoundation Github 的主页 -->
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card bg-dark text-light mx-5 text-center"
-            style="	height: 360px;	border-top-left-radius: 1rem;	border-top-right-radius: 1rem;	border-bottom-right-radius: 1rem;	border-bottom-left-radius: 1rem;">
-            <div class="card-header">GoldRush</div>
-            <div class="card-text">淘金热(内容介绍)</div>
-            <div class="btn btn-primary align-items-center"
-              style="	width: 124px;	transform:  translateX(160px)  translateY(270px) ;"><a
-                href="https://github.com/SkyFoundation/GoldRush">GitHub</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+  <!------导航栏 ------>
+	<div class="menu_ui">
+		<a href="index.html" class="tablink">首页</a>
+		<a href="team_work.html" class="tablink">团队作品</a>
+		<a href="team.html" class="tablink">有关我们</a>
+		<a href="join.html" class="tablink">加入我们</a>
+		<a href="cooperation.html" class="tablink">投资|合作</a>
+	</div>
+	
+  
+  
+  
+				  <div class="card-description justify-content" id="mcmod">
+					<div class="container" style="	transform:  translateY(140px) ;">
+					  <div class="row">
+						<div class="col-md-6">
+						  <div class="card bg-dark text-light mx-5 text-center" style="	height: 360px;	border-top-left-radius: 1rem;	border-top-right-radius: 1rem;	border-bottom-left-radius: 1rem;	border-bottom-right-radius: 1rem;">
+							<div class="card-header" style="">CheeseCraft</div>
+							<div class="card-text">许多的芝士</div><!-- 组建详情，描述开源项目地址 -->
+							<div class="btn btn-primary align-items-center" style="	width: 124px;	transform:  translateX(160px)  translateY(270px) ;"><a href="https://github.com/SkyFoundation">GitHub</a></div>
+							<!-- 这里我直接链接了SkyFoundation Github 的主页 -->
+						  </div>
+						</div>
+						<div class="col-md-6">
+						  <div class="card bg-dark text-light mx-5 text-center" style="	height: 360px;	border-top-left-radius: 1rem;	border-top-right-radius: 1rem;	border-bottom-right-radius: 1rem;	border-bottom-left-radius: 1rem;">
+							<div class="card-header">GoldRush</div>
+							<div class="card-text" style="">淘金热</div>
+							<div class="btn btn-primary align-items-center" style="	width: 124px;	transform:  translateX(160px)  translateY(270px) ;"><a href="https://github.com/SkyFoundation/GoldRush">GitHub</a></div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  
+				  
+				  
   <div class="" id="apps">
   </div>
   <div class="" id="games">
   </div>
-  
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+  <!-- <div class="py-3" style="cursor:pointer;position: fixed;bottom: 0;left:360px;padding:4px;border-radius: 8px;display:flex;flex-direction:row;align-items:center;justify-content:center;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex justify-content-between align-items-center">
+          <ul class="nav d-flex justify-content-center">
+            <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+          </ul> <a class="btn btn-primary" href="#">Contact us</a>
+        </div>
+      </div>
+    </div> -->
+  </div>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
-body {
+body
+{
 	margin: 0;
 	padding: 0;
 
@@ -6,37 +7,82 @@ body {
 	width: 100%;/* 自动 */
 }
 
-html {
+html
+{
 	margin: 0;
 	padding: 0;
+
 	height: 100%;/* 自动 */
 	width: 100%;/* 自动 */
 }
 
 
 /* -----导航栏样式----- */
-.nav{
-	width: 100%;
-	line-height: 3rem;
+.menu_ui
+{
+	padding: 10px;
+	background-color: #343a40;
 }
-.nav .nav-item{
-	background: #414141;}
-	.nav .nav-item #navigation-home{
-		margin-left: 60px;
-		font-size: 1.6rem;
-		color: white;}
-		.nav .nav-item #navigation-home:hover{
-			font-size: 1.8rem;
-			color: lightblue;
-		}
-	.nav .nav-item a{
-		text-decoration: none;
-		color: #9e9e9e;}
-		.nav .nav-item a:hover{
-			color: #dbdbdb;
-			font-size: 1.2rem;
-		}
+.tablink
+{
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff0;
+	
+	border-radius: 10px;
+	//border-radius: 20px;
+}
+.tablink:hover
+{
+	text-decoration: none;
+	border: 2px solid #586068;
+	background-color: #586068;
+	color: #00b0eb;
+}
 
-.footer{
+
+
+
+/* -----卡片样式----- */
+.card-description
+{
+	width: 100%;
+	height: 140px;
+}
+
+.card-description ul li .card
+{
+	width: 280px;
+	height: 100%;
+	border-width: 0;
+	padding: 1.2px;
+	border-radius: 0.8rem;
+	background-color: #666666;
+	color: white;
+}
+
+.card .btn
+{
+	width: 88px;
+}
+
+.card .btn:hover
+{
+	font-size: 1.2rem;
+}
+
+.card .btn a
+{
+	color: white;
+}
+
+.card .btn a:hover
+{
+	text-decoration: none;
+}
+
+.footer
+{
 	display: block;
 }
