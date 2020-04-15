@@ -26,4 +26,9 @@ html {
 	color: rgb(165, 164, 164);}
 	.nav .nav-link:hover{
 		color: rgb(240, 240, 240);
+		font-size: 1.8rem;}
+	.nav #navigation-home{
+		float: left;
+		text-align: left;
+		padding-left: 88px;
 	}
