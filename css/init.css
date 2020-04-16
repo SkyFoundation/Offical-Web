@@ -48,6 +48,38 @@ body
 
 
 /* -----导航栏样式----- */
+/*
+.menu_ui
+{
+	width: 100%;
+	background-color: #343a40;
+	line-height: 44px;
+}
+.menu_ui #navigation-home{
+	text-align: left;
+	float: left;
+	padding-left: 60px;
+	font-size: 1.5rem;
+}
+a.nav-link
+{
+	text-align: center;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff0;
+	
+	border-radius: 10px;
+}
+a.nav-link:hover
+{
+	background-color: #586068;
+	color: #00b0eb;
+	font-size: 1.1rem;
+}
+
+*/
+
 .menu_ui
 {
 	padding: 10px;
@@ -70,7 +102,6 @@ body
 	background-color: #586068;
 	color: #00b0eb;
 }
-
 
 
 
