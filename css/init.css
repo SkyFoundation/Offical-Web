@@ -3,7 +3,7 @@ body
 	margin: 0;
 	padding: 0;
 
-	height: 100%;/* 自动 */
+	/* height: 100%;自动 */
 	width: 100%;/* 自动 */
 }
 
@@ -28,20 +28,20 @@ body
 .layout_ui
 {
     width: 1200px;
-	//height: 100%;/* 自动 */
+	height: 100%;/* 自动 */
 
 	margin: 20px auto;
-	//padding: 10px;
+	padding: 10px;
 
 }
 
 .back_ui
 {
-	//height: 100%;/* 自动 */
+	height: 100%;/* 自动 */
 	width: 100%;	/* 自动 */
-	//box-shadow: 0 10px 20px -8px #c5d6d6;
+	box-shadow: 0 10px 20px -8px #c5d6d6;
 	background-color: #eafffa;
-	
+
 	float: left;
 }
 
@@ -68,7 +68,7 @@ a.nav-link
 	text-decoration: none;
 	color: #fff;
 	border: 2px solid #fff0;
-	
+
 	border-radius: 10px;
 }
 a.nav-link:hover
@@ -91,9 +91,9 @@ a.nav-link:hover
 	text-decoration: none;
 	color: #fff;
 	border: 2px solid #fff0;
-	
+
 	border-radius: 10px;
-	//border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .tablink:hover
 {

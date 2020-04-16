@@ -1,0 +1,57 @@
+.member-area{
+    margin-top: 400px;
+    display: inline-flexbox;
+}
+
+.member-area>.card{
+    display: inline-flexbox;
+}
+
+.card {
+    /* background-image属性可以将背景换成图片，那样更美观 */
+    background-image: repeating-linear-gradient(to top, rgb(14, 100, 82), rgb(206, 238, 210));
+    background-clip: padding-box;
+    margin: 0 20px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-title>.teammate-icon,.teammate-name {
+    display: inline;
+}
+
+.teammate-icon {
+    width: 80px;
+    height: 80px;
+    border: 2px ridge rgb(141, 141, 141);
+    border-radius: 40px;
+    box-shadow: 0 1px 10px 0 rgb(99, 99, 99);
+}
+
+.teammate-name {
+    font-family: 雅黑;
+    font-size: 2rem;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    line-height: 80px;
+}
+
+hr {
+    margin-top: 0;
+    padding: 0;
+    background-color: rgb(71, 131, 131);
+}
+
+div.card-body {
+    margin-bottom: 20px;
+}
+
+.teammate-description {
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.555);
+    font-family: 楷体;
+    font-size: 1.2rem;
+}
