@@ -55,12 +55,7 @@ body
 	background-color: #343a40;
 	line-height: 44px;
 }
-.menu_ui #navigation-home{
-	text-align: left;
-	float: left;
-	padding-left: 60px;
-	font-size: 1.5rem;
-}
+
 a.nav-link
 {
 	text-align: center;

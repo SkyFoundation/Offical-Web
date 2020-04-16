@@ -1,0 +1,56 @@
+.navigation{
+    position: fixed;
+    width: 10%;
+    top: 30px;
+    right: 30px;
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+
+}
+
+/* ---------Top Area > Poster--------- */
+.poster img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* ---------Top Area > Navigation--------- */
+.navbar{
+    padding: 0;
+    list-style-type: none;
+    transform: translateY(-20px);
+    padding-bottom: 10px;
+}
+
+.navbar{
+    width: 100%;
+    background: rgb(145, 145, 145);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 40px;
+}
+
+.navbar li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.navbar li .nav-items{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgba(66, 66, 66, 0.945);
+}
+
+.navbar li .nav-items.nav-home{
+    padding-top: 16px;
+    font-size: 1.6rem;
+}
+
+.navbar li .nav-items:hover{
+    color: white;
+}

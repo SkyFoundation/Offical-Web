@@ -1,0 +1,10 @@
+html{
+    min-width: 1290px;
+}
+
+body{
+    height: 100%;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
