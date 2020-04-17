@@ -51,7 +51,7 @@ div.card-body {
     color: #e2e2e2;
     font-family: 楷体;
     font-size: 1.3rem;
-    overflow-y: scroll;}
+    overflow: auto;}
     .teammate-description::-webkit-scrollbar{
         display: none;
     }
