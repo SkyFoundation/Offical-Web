@@ -3,4 +3,28 @@
     justify-content: space-evenly;
 }
 
+img.w-100{
+    width: 100%;
+    max-height: 500px;
+}
 
+h5.m-0{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+    text-shadow: 0 2px rgb(255, 217, 0);
+}
+
+h5.m-0+p{
+    color: rgb(179, 179, 179);
+}
+
+.carousel-caption{
+    display: block;
+    transition: 1s;
+    opacity: 0;
+}
+
+.carousel-item:hover>.carousel-caption{
+    opacity: 100%;
+}

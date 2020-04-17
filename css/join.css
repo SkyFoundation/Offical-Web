@@ -1,47 +1,10 @@
-#join-description {
-    display: block;
-    position: relative;
-    float: right;
-    line-height: 50px;
-    margin-top: 100px;
-    margin-bottom: 200px;
+.row .card{
+    height: 400px;
+    width: 220px;
+    border: none;
 }
 
-.card-header {
-    font-size: 1.6rem;
-    font-family: 楷体;
-    color: white;
-}
-
-.work-price {
-    color: white;
-    font-family: 楷体;
-    text-decoration: underline #b40ec4;
-}
-
-.work-description {
-    color: white;
-    font-family: 楷体;
-    font-size: 1.1rem;
-    text-overflow: ellipsis;
-}
-
-.work-logng
-{
-	color: white;
-	font-size: 16px;
-}
-
-.work-onlg
-{
-	color: white;
-	font-size: 18px;
-}
-
-
-
-
-.card{
-    height: 360px;
-    max-width: 320px;
+.row .card img{
+    height: 140px;
+    overflow-y: hidden;
 }

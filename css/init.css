@@ -17,32 +17,6 @@ html
 	width: 100%;/* 自动 */
 }
 
-
-
-/*----适应布局------*/
-
-.layout_ui
-{
-    width: 1200px;
-	height: 100%;/* 自动 */
-
-	margin: 0px auto;
-	padding: 10px;
-
-}
-
-.back_ui
-{
-	height: 100%;/* 自动 */
-	width: 100%;	/* 自动 */
-	box-shadow: 0 10px 20px -8px #c5d6d6;
-	background-color: #eafffa;
-
-	float: left;
-}
-
-
-
 /* -----导航栏样式----- */
 /*
 .menu_ui
@@ -73,7 +47,9 @@ a.nav-link:hover
 
 .menu_ui
 {
+	display: inline-flex;
 	padding: 10px;
+	width: 100%;
 	background-color: #343a40;
 }
 .tablink
@@ -82,7 +58,6 @@ a.nav-link:hover
 	text-decoration: none;
 	color: #fff;
 	border: 2px solid #fff0;
-
 	border-radius: 10px;
 	/* border-radius: 20px; */
 }
@@ -94,61 +69,3 @@ a.nav-link:hover
 	color: #00b0eb;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* -----卡片样式----- */
-.card-description
-{
-	width: 100%;
-	height: 140px;
-}
-
-.card-description ul li .card
-{
-	width: 280px;
-	height: 100%;
-	border-width: 0;
-	padding: 1.2px;
-	border-radius: 0.8rem;
-	background-color: #666666;
-	color: white;
-}
-
-.card .btn
-{
-	width: 88px;
-}
-
-.card .btn:hover
-{
-	font-size: 1.2rem;
-}
-
-.card .btn a
-{
-	color: white;
-}
-
-.card .btn a:hover
-{
-	text-decoration: none;
-}
-
-.footer
-{
-	display: block;
-}

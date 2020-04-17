@@ -1,0 +1,41 @@
+
+/* 卡片样式 */
+.container .row div{
+	display: contents;
+}
+
+.container .row div img{
+	width: 100%;
+	height: auto;
+}
+
+.container .row .line{
+	width: 100%;
+	display: inline-flex;
+	transform: translateY(-60px);
+}
+
+.container .row span{
+	font-size: 2.8rem;
+	font-weight: bold;
+	margin-left: 20px;
+    flex:4;
+    color: rgb(255, 255, 255);
+	transform: translateY(-10px);
+}
+
+.container .row span small{
+	max-height: 60px;
+	overflow: hidden;
+}
+
+.container .row span.project-name{
+    max-block-size: 65px;
+}
+
+.container .row div a{
+	flex:1;
+	padding-top: 12px;
+	margin:  0 2% 2% 0;
+
+}
