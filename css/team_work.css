@@ -28,3 +28,35 @@ h5.m-0+p{
 .carousel-item:hover>.carousel-caption{
     opacity: 100%;
 }
+
+.project-address{
+    border-top: 1px solid #000;
+    padding-top: 40px;
+    background: gray;
+}
+
+.project-address .project-line{
+    height: 120px;
+    padding: 30px 0;
+    border: 1px solid;
+    border-bottom: 0;
+}
+
+
+.project-address .project-line div,a{
+    display: inline-block;
+    clear: both;
+}
+
+.project-address .project-line div{
+    float: left;
+    margin-left: 60px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.project-address .project-line a.btn{
+    float: right;
+    margin-right: 120px;
+    transform: translateY(-60px);
+}

@@ -39,3 +39,8 @@
 	margin:  0 2% 2% 0;
 
 }
+
+.row .line a.btn{
+	display: block;
+	width: 60px;
+}

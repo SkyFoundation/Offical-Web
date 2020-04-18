@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="../src/images/SkyFoundation_icon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="../css/init.css">
+  <link rel="stylesheet" href="../css/cooperation.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
@@ -21,8 +22,52 @@
     <a href="team.html" class="tablink">有关我们</a>
     <a href="join.html" class="tablink">加入我们</a>
     <a href="cooperation.html" class="tablink">投资|合作</a>
+  </div>
+
+  <div class="container contact-card" id="contact-card">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card text-center">
+          <div class="card-header">
+            我们的联系方式
+            <div class="back-btn" onclick="MessageOff()">
+              X
+            </div>
+            <p style="font-size: .4rem;color: gray;">需要设备设置邮箱打开方式才可直接访问，否则请复制地址信息通过本地邮箱访问</p>
+          </div>
+          <div class="card-body">
+            <div class="contact-description">
+              <h5 class="card-title">青蛙[室长]</h5>
+              <div class="contact-address">
+                <p class="card-text">[outlook邮箱]->WisdomJack143@outlook.com</p>
+                <a href="mailto:WisdomJack143@outlook.com?subject=欢迎你的来信&body=写下你的建议" class="btn btn-primary">访问</a>
+              </div>
+              <div class="contact-address">
+                <p class="card-text">[QQ]->2846085135</p>
+                <a href="tencent://message/?uin=2846085135&Site=&Menu=yes" class="btn btn-primary">访问</a>
+              </div>
+            </div>
+            <div class="contact-description">
+              <h5 class="card-title">蓝墨[助理]</h5>
+              <div class="contact-address">
+                <p class="card-text">[163邮箱]->lantiany2247089191@163.com</p>
+                <a href="mailto:lantiany2247089191@163.com/" class="btn btn-primary">访问</a>
+              </div>
+              <div class="contact-address">
+                <p class="card-text">[QQ]->2247089191</p>
+                <a href="tencent://message/?uin=2247089191&Site=&Menu=yes" class="btn btn-primary">访问</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-  <div class="py-5 text-center text-white h-100 align-items-center d-flex" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+  </div>
+
+
+  <div class="py-5 text-center text-white h-100 align-items-center d-flex"
+    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container py-5">
       <div class="row">
         <div class="mx-auto col-lg-8 col-md-10">
@@ -46,25 +91,15 @@
               <thead>
                 <tr>
                   <th scope="col">时间</th>
-                  <th scope="col">机构</th>
+                  <th scope="col">项目负责</th>
                   <th scope="col">内容</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">2021-2022</th>
-                  <td>ZuiMC</td>
+                  <td>待定</td>
                   <td>梦想方块服务器的技术支持</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
                 </tr>
               </tbody>
             </table>
@@ -77,10 +112,19 @@
     <div class="container">
       <div class="row">
         <h1 class="display-5 mb-4 col-md-9">如果你对我们的团队和计划感兴趣，请和我们联系！</h1>
-        <div class="col-md-3"><a href="#" class="btn btn-lg btn-primary mx-1">联系方式</a></div>
+        <div class="col-md-3"><button class="btn btn-lg btn-primary mx-1" onclick="MessageOn()">联系方式</button></div>
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+    function MessageOn() {
+      document.getElementById("contact-card").setAttribute("style", "opacity: 100%;transition:.6s;");
+    }
+    function MessageOff() {
+      document.getElementById("contact-card").setAttribute("style", "opacity: 0%;transition:.2s;");
+    }
+  </script>
 </body>
 
 </html>
