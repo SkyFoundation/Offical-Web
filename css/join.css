@@ -6,5 +6,80 @@
 
 .row .card img{
     height: 140px;
-    overflow-y: hidden;
+}
+
+.container.contact-card{
+    position: fixed;
+    left: 40%;
+    top: 10%;
+    z-index: 100;
+    /* visibility: hidden; */
+    opacity: 0%;
+}
+
+.container.contact-card .card-header,.back-btn{
+    display: inline;
+}
+
+.container.contact-card .back-btn{
+    display: block;
+    width: 30px;
+    float: right;
+}
+
+.container.contact-card .back-btn:hover{
+    transform: scale(1.1, 1.1);
+    color: rgb(137, 137, 137);
+    cursor: default;
+}
+
+.card.text-center{
+    width: 400px;
+    height: auto;
+    background-color: dimgray;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.card.text-center .card-header{
+    background-color: rgb(56, 56, 56);
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.card.text-center .card-body{
+    padding: 0;
+}
+
+.card.text-center .card-body>.contact-description{
+    border-top: 1px solid snow;
+}
+
+.card.text-center .card-body .card-title,.card-text,a.btn{
+    display: inline-block;
+    line-height: 30px;
+}
+
+.card.text-center .card-body>.contact-description>.contact-address{
+    display: flex;
+}
+
+.card.text-center .card-body>.contact-description>.card-title{
+    padding-left: 20px;
+    display: block;
+    text-align: left;
+}
+
+.card.text-center .card-body>.contact-description .card-text{
+    flex: 6;
+    text-align: left;
+    padding-left: 40px;
+    text-decoration-line: underline;
+}
+
+.card.text-center .card-body>.contact-description a.btn{
+    margin-right: 30px;
+    height: 40px;
+    width: 60px;
+    flex: 1;
 }
